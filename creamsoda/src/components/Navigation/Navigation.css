@@ -1,0 +1,53 @@
+.nav {
+  height: 6vw;
+  display: flex;
+  margin: 1rem 20vw;
+  justify-content: space-between;
+  align-items: center;
+  color: #222;
+  font-family: "PTSansNarrow", sans-serif;
+  font-weight: normal;
+  font-size: 2.15vw;
+  /* background-color: aliceblue; */
+}
+
+@keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.nav-logo {
+    max-width: 100%;  /* Изображение не будет шире контейнера */
+    max-height: 5vw; /* Максимальная высота логотипа */
+    height: auto;     /* Высота изменяется автоматически в зависимости от ширины */
+    animation: rotateAnimation 20s linear infinite;
+}
+
+
+.nav-item {
+    text-align: center;
+    text-decoration: none; 
+    color: #222;
+    transition: opacity 150ms ease;
+  }
+  
+.nav-item:hover {
+  opacity: 0.75;
+}
+
+/* @media (max-width: 900px) {
+    .nav {
+        padding: 1rem 5rem;
+        font-size: 125%;
+    }
+} */
+
+/* @media (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+} */

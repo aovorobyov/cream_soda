@@ -1,0 +1,55 @@
+.menu {
+    /* height: 55vw; */
+    height: fit-content;
+    /* background-color: aliceblue; */
+    /* margin: 1rem 10rem; */
+    margin: 1rem 10vw;
+}
+
+.menu-nav {
+    display: flex;
+    margin-bottom: 2rem;
+    color: #222;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-family: "PTSansNarrow", sans-serif;
+    overflow-x: scroll;
+    font-size: 150%;
+}
+
+.menu-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    margin-right: 10px; /* пример минимального отступа справа для каждого элемента */
+}
+
+.item:last-child {
+    margin-right: 0; /* убираем отступ у последнего элемента */
+}
+
+
+.menu-nav-item {
+    text-align: center;
+    text-decoration: none; 
+    color: #222;
+    transition: opacity 150ms ease;
+    margin-right: 20px;
+  }
+
+.menu-nav-item:last-child {
+    margin-right: 0;
+}
+  
+.menu-nav-item:hover {
+  opacity: 0.75;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    }

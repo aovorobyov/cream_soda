@@ -1,0 +1,67 @@
+.showCase {
+    height: 45vw;
+    display: flex;
+    padding: 1rem 10vw;
+    color: #222;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "PTSansNarrow", sans-serif;
+}
+
+.presentation {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 1rem;
+    padding: 2vw;
+    /* background-color: aliceblue; */
+    /* background-image: url(../../images/creamsoda_pres.jpg); */
+}
+
+.name {
+    font-size: 8vw;
+    font-family: "BebasNeue", sans-serif;
+}
+
+.description {
+    font-size: 2vw;
+}
+
+.newsBlock {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    padding: 2vw;
+    /* background-color:aliceblue;
+    border-radius: 15px; */
+}
+
+.nameNews {
+    font-size: 2vw;
+    margin-bottom: 0.5vw;
+}
+
+.textNews {
+    /* margin-top: 1rem; */
+    text-align: left;
+    font-size: 1.25vw;
+}
+
+.photoNews {
+      /* Изображение не будет шире контейнера */
+    max-width: 100%;
+    /* width: 95%; */
+    border-radius: 15px;
+    margin-bottom: 1vw;
+    /* border: 0.5rem solid #ffffff; */
+    
+}

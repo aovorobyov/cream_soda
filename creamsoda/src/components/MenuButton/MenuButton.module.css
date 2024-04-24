@@ -1,0 +1,27 @@
+.menuButton {
+    padding: 0.25rem 0.25rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: normal;
+    margin-right: 3%;
+    font-family: "PTSansNarrow", sans-serif;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    /* width: 100%; */
+    color: rgb(83, 83, 83);
+    background-color: #fff;
+}
+
+.menuBbutton:hover {
+    opacity: 0.8;
+}
+
+.menuButton.active {
+    /* font-weight: bold; */
+    color: black;
+}
+
+.MenuButton:disabled {
+    cursor: not-allowed;
+}

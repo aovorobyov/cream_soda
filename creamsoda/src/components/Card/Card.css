@@ -1,0 +1,53 @@
+.card {
+    /* width: 20%; */
+    padding: 1vw;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222;
+    background-color: white;
+    font-family: "PTSansNarrow", sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Увеличиваем тень при наведении */
+}
+  
+  .card-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-info {
+    text-align: left;
+    width: 100%;
+  }
+  
+.card-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+}
+
+  .card-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-volume {
+    font-size: 1.25rem;
+    color: gray;
+  }
+  
+  .card-name {
+    font-size: 1.25rem;
+    color: #333;
+    /* margin-bottom: 1rem; */
+  }
+  
