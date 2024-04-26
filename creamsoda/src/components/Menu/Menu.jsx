@@ -1,9 +1,22 @@
 import './Menu.css'
 import MenuButton from "../MenuButton/MenuButton"
 import { useState } from "react"
-import { coffee } from "../../data"
+import { coffee, breakfasts, salads, soups, sandwiches, hotDishes, desserts, drinks, hotDrinks, addition, drips } from "../../data"
 import Card from '../Card/Card'
-import photo from '../../images/coffee.jpeg';
+
+const items = {
+  coffee,
+  breakfasts, 
+  salads, 
+  soups, 
+  sandwiches, 
+  hotDishes, 
+  desserts, 
+  drinks, 
+  hotDrinks, 
+  addition, 
+  drips
+};
 
 export default function() {
 
@@ -16,23 +29,23 @@ export default function() {
         <section className='menu'>
             <span className="menu-nav">
                 <MenuButton isActive={contentType === 'coffee'} onClick={() => HandleClick('coffee')}>Кофе</MenuButton>
-                <MenuButton className="menu-nav-item">Завтраки</MenuButton>
-                <MenuButton className="menu-nav-item">Салаты</MenuButton>
-                <MenuButton className="menu-nav-item">Супы</MenuButton>
-                <MenuButton className="menu-nav-item">Сэндвичи</MenuButton>
-                <MenuButton className="menu-nav-item">Горячие блюда</MenuButton>
-                <MenuButton className="menu-nav-item">Десерты</MenuButton>
-                <MenuButton className="menu-nav-item">Напитки</MenuButton>
-                <MenuButton className="menu-nav-item">Горячие напитки</MenuButton>
-                <MenuButton className="menu-nav-item">Дополнительно</MenuButton>
-                <MenuButton className="menu-nav-item">Дрип-кофе</MenuButton>
+                <MenuButton isActive={contentType === 'breakfasts'} onClick={() => HandleClick('breakfasts')}>Завтраки</MenuButton>
+                <MenuButton isActive={contentType === 'salads'} onClick={() => HandleClick('salads')}>Салаты</MenuButton>
+                <MenuButton isActive={contentType === 'soups'} onClick={() => HandleClick('soups')}>Супы</MenuButton>
+                <MenuButton isActive={contentType === 'sandwiches'} onClick={() => HandleClick('sandwiches')}>Сэндвичи</MenuButton>
+                <MenuButton isActive={contentType === 'hotDishes'} onClick={() => HandleClick('hotDishes')}>Горячие блюда</MenuButton>
+                 <MenuButton isActive={contentType === 'desserts'} onClick={() => HandleClick('desserts')}>Десерты</MenuButton>
+                <MenuButton isActive={contentType === 'drinks'} onClick={() => HandleClick('drinks')}>Напитки</MenuButton>
+                <MenuButton isActive={contentType === 'hotDrinks'} onClick={() => HandleClick('hotDrinks')}>Горячие напитки</MenuButton>
+                <MenuButton isActive={contentType === 'addition'} onClick={() => HandleClick('addition')}>Дополнительно</MenuButton>
+                <MenuButton isActive={contentType === 'drips'} onClick={() => HandleClick('drips')}>Дрип-кофе</MenuButton>
             </span>
             
             <div className='menu-items'>
-                {contentType === 'coffee' && coffee.map((item) => (
+                {items[contentType] && items[contentType].map((item) => (
                     <Card
                         key={item.title} // Убедитесь, что title уникален, либо используйте другой уникальный ключ
-                        image={item.image || 'src/images/no_photopng.png'}  // Предоставьте путь к изображению по умолчанию, если оно отсутствует
+                        image={item.image || 'src/images/no_photopng.png'}
                         name={item.title}
                         volume={item.volume}
                         price={item.price}

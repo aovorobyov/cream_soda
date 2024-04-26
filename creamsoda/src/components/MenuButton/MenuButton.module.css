@@ -11,6 +11,7 @@
     /* width: 100%; */
     color: rgb(83, 83, 83);
     background-color: #fff;
+    /* border-bottom: 1px solid gray; */
 }
 
 .menuBbutton:hover {
@@ -18,8 +19,9 @@
 }
 
 .menuButton.active {
-    /* font-weight: bold; */
+    font-weight: bold;
     color: black;
+    border-bottom: 2px solid black;
 }
 
 .MenuButton:disabled {
