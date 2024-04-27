@@ -4,7 +4,7 @@
     padding: 1rem 10vw;
     color: #222;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     font-family: "PTSansNarrow", sans-serif;
 }
 
@@ -19,6 +19,7 @@
     text-align: center;
     margin-right: 1rem;
     padding: 2vw;
+    /* margin-bottom: 7vw; */
     /* background-color: aliceblue; */
     /* background-image: url(../../images/creamsoda_pres.jpg); */
 }
@@ -34,34 +35,69 @@
 
 .newsBlock {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     width: 50%;
     height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin-left: 1rem;
-    padding: 2vw;
-    /* background-color:aliceblue;
-    border-radius: 15px; */
+    justify-content: center;
 }
 
-.nameNews {
-    font-size: 2vw;
-    margin-bottom: 0.5vw;
-}
+@media (max-width: 900px) {
+    .showCase{
+        flex-direction: column;
+        height: 120vw;
+    }
 
-.textNews {
-    /* margin-top: 1rem; */
-    text-align: left;
-    font-size: 1.25vw;
-}
+    .presentation {
+        width: 100%;
+        height: 20%;
+    }
 
-.photoNews {
-      /* Изображение не будет шире контейнера */
-    max-width: 100%;
-    /* width: 95%; */
-    border-radius: 15px;
-    margin-bottom: 1vw;
-    /* border: 0.5rem solid #ffffff; */
+    .name {
+        font-size: 15vw;
+        font-family: "BebasNeue", sans-serif;
+    }
     
+    .description {
+        font-size: 4vw;
+    }
+
+    .newsBlock {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .showCase{
+        flex-direction: column;
+        height: 140vw;
+    }
+
+    .presentation {
+        width: 100%;
+        height: 20%;
+    }
+
+    .name {
+        font-size: 15vw;
+        font-family: "BebasNeue", sans-serif;
+    }
+    
+    .description {
+        font-size: 4vw;
+    }
+
+    .newsBlock {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+        justify-content: center;
+    }
 }

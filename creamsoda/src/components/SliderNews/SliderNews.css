@@ -1,0 +1,28 @@
+
+.slider {
+    padding: 1vw;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+    
+    /* align-items: center; */
+
+}
+
+.nameNews {
+    margin: 0.5rem 0;
+    /* text-align: center; */
+}
+
+.textNews {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.photoNews {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 90%;
+    border-radius: 10%;
+}

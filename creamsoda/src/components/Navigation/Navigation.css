@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 6vw;
+    min-height: 5vw;
     color: #000000;
     /* background-color: antiquewhite; */
-    padding: 1rem 10vw;
+    padding: 0 10vw;
+    padding-top: 1rem;
 }
 
 .nav {
@@ -69,7 +70,7 @@
     height: 2px;
     width: 100%;
     background-color: #000000;
-    transition: all 0.3s ease 0%;
+    transition: all 0.3s ease 0s;
 }
 
 .burger::before { top: 0 }
@@ -103,9 +104,14 @@
         overflow-y: auto;
         padding: 50px 40px;
         background-color: whitesmoke;
-        animation: burgerAnimation 0.4s;
         justify-content: start;
         align-items: flex-start;
         row-gap: 30px;
+        animation: burgerAnimation 0.3s;
     }
+}
+
+@keyframes burgerAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
