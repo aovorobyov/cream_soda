@@ -1,6 +1,6 @@
 
 .slider {
-    padding: 1vw;
+    /* padding: 2vw; */
     justify-content: center;
     /* background-color: antiquewhite; */
     
@@ -14,7 +14,7 @@
 }
 
 .textNews {
-    width: 90%;
+    width: 95%;
     display: block;
     margin: auto;
 }
@@ -23,6 +23,6 @@
     display: block;
     margin: auto;
     height: auto;
-    width: 90%;
+    width: 95%;
     border-radius: 10%;
 }

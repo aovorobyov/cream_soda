@@ -1,0 +1,137 @@
+* {
+    color: #202020;
+    font-family: "PTSansNarrow", sans-serif;
+}
+.contacts {
+    margin: 0 10vw;
+    margin-top: 3rem;
+    height: auto;
+    justify-content: space-between;
+}
+
+.contactsTitle {
+    text-align: center;
+    font-size: 48px;
+}
+
+.contactsItems {
+    padding: 4vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactsCafes {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+}
+
+.cafeName {
+    font-size: 30px;
+}
+
+.cafeDesc {
+    font-size: 20px;
+}
+
+.contactsCafe {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: beige; */
+    /* padding: 1rem; */
+    /* border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    margin-right: 5vw;
+}
+
+.cafeTel {
+    margin: 1.5vw 0;
+    font-size: 20px;
+    text-decoration:underline;
+
+}
+
+.cafeButton {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    font-size: 20px;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+.mapContainer {
+    width: 40%;
+    justify-content: center;
+}
+
+.map {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 5%;
+    border: none;
+}
+
+@media (max-width: 800px) {
+    .contactsItems {
+        flex-direction: column;
+    }
+
+    .contactsCafes {
+        width: 100%;
+        margin-bottom: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cafeTel {
+        margin: 2vw 0;
+    }
+
+    .contactsCafe:last-child {
+        margin-right: 0;
+    }
+
+    .mapContainer {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .map {
+        width: 70vw;
+        height: 60vw;
+        margin-top: 2vw;
+    }
+    .contacts {
+        margin: 3rem 10vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 515px) {
+    .contactsTitle {
+        font-size: 35px;
+    }
+
+    .cafeName {
+        font-size: 22px;
+    }
+
+    .cafeTel {
+        font-size: 18px;
+    }
+
+    .cafeDesc {
+        font-size: 14px;
+    }
+
+    .cafeButton {
+        font-size: 18px;
+    }
+}

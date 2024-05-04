@@ -1,0 +1,22 @@
+.footer {
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 0 10vw;
+    margin-bottom: 3rem;
+}
+
+.footerContacts{
+    margin-right: 6vw;
+}
+
+.footerNavigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerNavItem {
+    text-decoration: none;
+}
