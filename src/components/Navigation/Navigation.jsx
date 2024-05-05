@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import companyLogo from '../../images/logo.png';
+import companyLogo from 'images/logo.png';
 import './Navigation.css'
 import Modal from '../Modal/Modal'
 import Team from "../Team/Team";

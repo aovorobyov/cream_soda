@@ -22,7 +22,7 @@ export default function SliderNews() {
       <Slider {...settings}>
         {newsList.map(news => (
           <div key={news.id}>
-            <img className="photoNews" src={`${process.env.PUBLIC_URL}/${news.image}`} alt={news.title} />
+            <img className="photoNews" src={news.image} alt={news.title} />
             <div className="textNews">
                 <h3 className='nameNews'>{news.title}</h3>
                 <p className='descNews'>{news.description}</p>
