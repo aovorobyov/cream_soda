@@ -1,0 +1,44 @@
+.teamInvite {
+    /* margin: 2rem 10vw; */
+    height: auto;
+}
+
+.teamInviteHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.teamInviteBlocks {
+    display: flex;
+    align-items: center;
+}
+
+.teamInviteTextAndButton {
+    font-size: 20px;
+    margin-left: 2rem;
+    width: 50%;
+}
+
+.teamInviteButton {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    font-size: 20px;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .teamInviteBlocks{
+        flex-direction: column;
+    }
+    
+    .teamInviteTextAndButton{
+        width: 80%;
+        margin-left: 0rem;
+        /* font-size: 90%; */
+    }
+   
+
+}

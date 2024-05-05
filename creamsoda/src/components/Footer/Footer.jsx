@@ -7,11 +7,11 @@ export default function() {
                 &#169; 2024
             </div>
             <div className="footerNavigation">
-                <a href="#" className="footerNavItem" style={{color: 'lightgray', cursor: 'not-allowed'}}>Бронирование</a>
+                <a href="https://t.me/CREAM_SODA_CAFE" className="footerNavItem">Бронирование на Лесной</a>
                 <a href="https://eda.yandex.ru/r/cream_soda?placeSlug=cream_soda_ufitd&shippingType=delivery" className="footerNavItem">Доставка</a>
-                <a href="#" className="footerNavItem" style={{color: 'lightgray', cursor: 'not-allowed'}}>Стать частью команды</a>
+                {/* <a href="#">Стать частью команды</a> */}
                 <a href="https://register.osmicards.com/fc849abf9447?referal=3800002" className="footerNavItem">Бонусная программа</a>
-                <a href="#" className="footerNavItem">Контакты и отзывы</a>
+                <a href="#contactSection" className="footerNavItem">Контакты и отзывы</a>
             </div>
         </footer>
     )

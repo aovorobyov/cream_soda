@@ -11,7 +11,7 @@
 
 .contactsTitle {
     text-align: center;
-    font-size: 48px;
+    /* font-size: 48px; */
 }
 
 .contactsItems {
@@ -29,7 +29,7 @@
 }
 
 .cafeName {
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
 .cafeDesc {

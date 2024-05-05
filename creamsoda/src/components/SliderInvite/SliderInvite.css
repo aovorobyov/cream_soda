@@ -1,0 +1,11 @@
+.sliderInvite {
+    width: 35vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    .sliderInvite{
+        width: 55vw;
+        margin-bottom: 2rem;
+    }
+}
