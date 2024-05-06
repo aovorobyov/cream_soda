@@ -540,7 +540,7 @@ export const addition = [
 
 export const drips = [
   {
-    image: 'images/menu/drips/gvatemala_laguna_ayarza.jpeg',
+    image: 'src/images/menu/drips/gvatemala_laguna_ayarza.jpeg',
     title: 'Гватемала Лагуна Аярза',
     volume: '72 г',
     price: '750',
@@ -569,7 +569,7 @@ export const newsList = [
   {
     id: 1,
     title: "Пасхальные куличи",
-    image: "../../images/news/easter.jpg",
+    image: "cream_soda/srс/images/news/easter.jpg",
     description: "Классический кулич на традиционном мягком тесте с сочным изюмом, вяленой клюквой и  воздушной шапкой из маршмеллоу и кулич малина-ваниль с розой на воздушном тесте с ванильным кремом, малиновым конфи и воздушной шапкой из маршмеллоу"
   },
   {
