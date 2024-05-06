@@ -2,6 +2,7 @@ import './News.css'
 // import easter from '../../images/soda_easter.jpg';
 import SliderNews from '../SliderNews/SliderNews'
 
+
 export default function News() {
 
     return (
