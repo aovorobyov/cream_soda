@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import React from 'react';
 import Slider from 'react-slick';
 import './SliderNews.css'
-import { newsList } from "src/data.js"
+import { newsList } from "src/data"
 
 export default function SliderNews() {
   const settings = {
