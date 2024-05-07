@@ -1,6 +1,10 @@
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+import team_1 from './../../images/team/team_1.jpg'
+import team_3 from './../../images/team/team_3.jpg'
+import team_4 from './../../images/team/team_4.jpg'
+
 import React from 'react';
 import Slider from 'react-slick';
 import './SliderInvite.css'
@@ -8,15 +12,15 @@ import './SliderInvite.css'
 const photosTeam = [
     {
       id: 1,
-      image: "src/images/team/team_1.jpg",
+      image: team_1,
     },
     {
         id: 3,
-        image: "src/images/team/team_3.jpg",
+        image: team_3,
     },
     {
         id: 4,
-        image: "src/images/team/team_4.jpg",
+        image: team_4,
     },
 ]
 

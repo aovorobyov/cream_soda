@@ -26,7 +26,7 @@ export default function Navigation() {
 
     return (
         <header className="header">
-            <a href="/" className="nav-item"><img className="nav-logo" src={companyLogo} alt="CS logo"/></a>
+            <a href="##" className="nav-item"><img className="nav-logo" src={companyLogo} alt="CS logo"/></a>
             <nav className={`nav ${isActive ? 'open' : ''}`}>
                 <a href="https://t.me/CREAM_SODA_CAFE" className="nav-item text-item" >Бронирование на Лесной</a>
                 <a href="https://eda.yandex.ru/r/cream_soda?placeSlug=cream_soda_ufitd&shippingType=delivery" className="nav-item text-item">Доставка</a>
